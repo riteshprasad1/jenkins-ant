@@ -7,8 +7,10 @@ stages {
         label 'apache'
             }
       steps {
-	   sh 'ant -f test.xml -v'     
-            }
+			sh 'ant -version'     
+        
+      }
     }
+	}
 }
-}
+
